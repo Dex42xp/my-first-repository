@@ -11,7 +11,6 @@ class Rasterization():
 class RayTracing():
     def __init__(self, app):
         self.app = app
-        self.screen_array = np.full((self.app.WIDTH, self.app.HEIGHT, 3), [0, 0, 0], dtype=np.uint32)
         print(self.screen_array)
 
 class App():
