@@ -11,7 +11,6 @@ class Rasterization():
 class RayTracing():
     def __init__(self, app):
         self.app = app
-        print(self.screen_array)
 
 class App():
     def __init__(self, res=(1600,900)):
